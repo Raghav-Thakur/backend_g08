@@ -1,11 +1,15 @@
-TASK 1 - 29/08/2024
+TASK 1 - Find students whose age is =22 && marks=90
+db.student.find(
+    {age: {$gt: 20, marks: {$gt:85}}}
+)
 
-Find students whose age is =22 && marks=90
+TASK 2 - Find students whose age is <=18 && marks<=80
+db.student.find(
+    {marks:{$gte:90},age:{$gte:20}}
+)
 
-TASK 2 - 29/08/2024
 
-Find students whose age is <=18 && marks<=80
-
-TASK 3 - 29/08/2024
-
-Find students whose marks<=81 , give them "A++" GRADE
+TASK 3 - Find students whose marks<=81 , give them "A++" GRADE
+db.student.find(
+    {grade:"A++}
+)
