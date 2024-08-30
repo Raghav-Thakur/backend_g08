@@ -2,3 +2,4 @@ TASK1 db.col_name.updateOne()
 TASK2 db.col_name.updateMany()
 TASK3 db.col_name.findOneAndUpdate()
 TASK4 db.col_name.replaceOne()
+.
